@@ -2,6 +2,9 @@
 
 A minimal KDE Plasma clock widget designed for **vertical panels**, displaying hours and minutes on separate lines.
 
+![simplesplitclock](simplesplitclock)
+![simplesplitclock](desktop-2.png)
+
 ## Features
 
 - Hours on top, minutes below — fills vertical panel space naturally
