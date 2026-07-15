@@ -1,0 +1,17 @@
+{
+    "KPlugin": {
+        "Category": "Date and Time",
+        "Description": "Simple Split Clock widget for your vertical panel",
+        "Icon": "clock",
+        "Id": "local.widget.simplesplitclock",
+        "Name": "Simple Split Clock",
+        "KPackageStructure": "Plasma/Applet",
+        "Version": "1"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.time"
+    ]
+
+}

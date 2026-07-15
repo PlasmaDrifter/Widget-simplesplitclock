@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+  <group name="General">
+    <entry name="useCustomColor" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="fontColor" type="Color">
+      <default>#d815bcb4</default>
+    </entry>
+    <entry name="fontSize" type="Int">
+      <default>32</default>
+    </entry>
+    <entry name="useCustomFont" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="fontFamily" type="String">
+      <default>Noto Sans Condensed ExtraBold</default>
+    </entry>
+    <entry name="lineHeight" type="Double">
+      <default>0.7</default>
+    </entry>
+  </group>
+</kcfg>
