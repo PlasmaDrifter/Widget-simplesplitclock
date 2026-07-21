@@ -1,27 +1,50 @@
-# Simple Split Clock
+# Simple Split Clock Widget
 
-A minimal KDE Plasma clock widget designed for **vertical panels**, displaying hours and minutes on separate lines.
+[![KDE Plasma 6](https://img.shields.io/badge/KDE_Plasma-6.0+-3152A0?style=for-the-badge&logo=kde&logoColor=white)](https://kde.org/plasma-desktop/)
+[![QML](https://img.shields.io/badge/UI-QML%2FQt6-41CD52?style=for-the-badge&logo=qt&logoColor=white)](https://doc.qt.io/qt-6/qtqml-index.html)
+[![Category](https://img.shields.io/badge/Clock%20%26%20Time-34C759?style=for-the-badge&logo=clock&logoColor=white)](https://github.com/PlasmaDrifter)
+[![License](https://img.shields.io/badge/License-GPLv2-blue.svg?style=for-the-badge)](LICENSE)
 
-![simplesplitclock](simplesplitclock)
-![simplesplitclock](desktop-2.png)
+An elegant dual-toned split digital clock and date widget for KDE Plasma 6.
+
+---
+
+## Previews
+
+![Simple Split Clock Widget Preview](simplesplitclock.png)
+
+![Simple Split Clock Widget Preview](desktop-2.png)
+
+---
 
 ## Features
 
-- Hours on top, minutes below — fills vertical panel space naturally
-- Clean, minimal typography
-- Follows the Plasma theme font and colour
-- No unnecessary chrome or decorations
+- **Dual-toned**: split color typography for hours and minutes
+- **Customizable**: date format and time zone display
+- **Scalable**: vector typography
+- **Transparent**: background
 
 ## Requirements
 
-- KDE Plasma 6.0+
+- **Environment**: KDE Plasma 6.0 or higher
+- **Framework**: Qt6 QML / Plasma Applet API
 
 ## Installation
 
+### Option 1: Git Clone (Recommended)
 ```bash
-cd ~/.local/share/plasma/plasmoids/
-git clone https://github.com/PlasmaDrifter/simplesplitclock local.widget.simplesplitclock
+mkdir -p ~/.local/share/plasma/plasmoids/
+git clone https://github.com/PlasmaDrifter/simplesplitclock.git ~/.local/share/plasma/plasmoids/local.widget.simplesplitclock
 ```
 
-Then right-click your **vertical** panel → **Add Widgets** → search for **Simple Split Clock**.
+### Option 2: Plasma Package Installer
+```bash
+kpackagetool6 -i ~/.local/share/plasma/plasmoids/local.widget.simplesplitclock
+```
 
+Then right-click your desktop or panel $\rightarrow$ **Add Widgets...** and search for the widget name.
+
+## Credits & License
+
+- **Author / Maintainer**: PlasmaDrifter
+- **License**: Licensed under the [GPLv2](LICENSE).
