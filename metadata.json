@@ -6,12 +6,11 @@
         "Id": "local.widget.simplesplitclock",
         "Name": "Simple Split Clock",
         "KPackageStructure": "Plasma/Applet",
-        "Version": "1"
+        "Version": "2"
     },
     "KPackageStructure": "Plasma/Applet",
     "X-Plasma-API-Minimum-Version": "6.0",
     "X-Plasma-Provides": [
         "org.kde.plasma.time"
     ]
-
 }

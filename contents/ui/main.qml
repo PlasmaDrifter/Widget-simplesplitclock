@@ -27,7 +27,7 @@ PlasmoidItem {
 
     Timer {
         id: timer
-        interval: 1000
+        interval: 10000
         running: true
         repeat: true
         onTriggered: updateTime()
