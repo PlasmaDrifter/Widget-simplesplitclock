@@ -34,7 +34,7 @@ An elegant dual-toned split digital clock and date widget for KDE Plasma 6.
 ### Option 1: Git Clone (Recommended)
 ```bash
 mkdir -p ~/.local/share/plasma/plasmoids/
-git clone https://github.com/PlasmaDrifter/simplesplitclock.git ~/.local/share/plasma/plasmoids/local.widget.simplesplitclock
+git clone https://github.com/PlasmaDrifter/Widget-simplesplitclock.git ~/.local/share/plasma/plasmoids/local.widget.simplesplitclock
 ```
 
 ### Option 2: Plasma Package Installer
