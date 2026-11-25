@@ -73,11 +73,12 @@ KCM.SimpleKCM {
             id: fontFamilyComboBox
             Kirigami.FormData.label: "Font Family:"
             enabled: useCustomFontCheckbox.checked
-            model: Qt.fontFamilies().sort()
+            readonly property var sortedFamilies: Qt.fontFamilies().sort()
+            model: sortedFamilies
             editable: true
 
             Component.onCompleted: {
-                currentIndex = model.indexOf(root.cfg_fontFamily)
+                currentIndex = sortedFamilies.indexOf(root.cfg_fontFamily)
             }
 
             onActivated: {
@@ -85,7 +86,7 @@ KCM.SimpleKCM {
             }
 
             onEditTextChanged: {
-                if (activeFocus && model.indexOf(editText) !== -1) {
+                if (activeFocus && sortedFamilies.indexOf(editText) !== -1) {
                     root.cfg_fontFamily = editText
                 }
             }
@@ -93,7 +94,7 @@ KCM.SimpleKCM {
             Connections {
                 target: root
                 function onCfg_fontFamilyChanged() {
-                    fontFamilyComboBox.currentIndex = fontFamilyComboBox.model.indexOf(root.cfg_fontFamily)
+                    fontFamilyComboBox.currentIndex = fontFamilyComboBox.sortedFamilies.indexOf(root.cfg_fontFamily)
                 }
             }
         }

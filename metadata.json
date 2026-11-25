@@ -6,7 +6,7 @@
         "Id": "local.widget.simplesplitclock",
         "Name": "Simple Split Clock",
         "KPackageStructure": "Plasma/Applet",
-        "Version": "2"
+        "Version": "3"
     },
     "KPackageStructure": "Plasma/Applet",
     "X-Plasma-API-Minimum-Version": "6.0",
